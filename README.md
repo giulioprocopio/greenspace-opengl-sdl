@@ -1,7 +1,8 @@
 # Greenspace OpenGL SDL
 
 This is a project template for creating OpenGL applications.  It is currently
-agnostic to bundled libraries versions.
+agnostic to bundled libraries versions, i.e. submodules are not pinned to
+specific versions.
 
 The main routine in `src/main.cc` is written in C++.  Get started by building
 and running the project.
