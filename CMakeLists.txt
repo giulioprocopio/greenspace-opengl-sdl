@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 project(greenspace)
 
 enable_language(C CXX OBJC OBJCXX)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
 # Option to switch between a system and vendored libraries.
 option(GREENSPACE_VENDORED "Use vendored libraries" ON)
