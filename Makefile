@@ -12,7 +12,6 @@ build: $(BUILD_DIR)/Makefile
 
 # Clean the build directory.
 clean:
-	$(MAKE) -C $(BUILD_DIR) clean
 	rm -rf $(BUILD_DIR)
 
 .PHONY: build clean
